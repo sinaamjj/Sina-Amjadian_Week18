@@ -1,0 +1,39 @@
+* {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(115, 22, 222, 1) 0%,
+    rgba(62, 44, 82, 1) 100%
+  );
+}
+
+.container {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.container h1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.container p {
+  color: #fff;
+}
+
+.container a {
+  text-decoration: none;
+  color: #304ffe;
+  background-color: #bbdefb;
+  padding: 3px 5px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.container a:hover {
+  color: #bbdefb;
+  background-color: #304ffe;
+}

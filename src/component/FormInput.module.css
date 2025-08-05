@@ -1,0 +1,17 @@
+.inputGroup {
+  width: 80%;
+  /* margin-bottom: 1.2rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.errorBorder {
+  border-color: #ff0015;
+}
+
+.errorText {
+  color: #ff0015;
+  font-size: 1rem;
+  margin-top: 2px;
+  margin-left: 1.2rem;
+}
